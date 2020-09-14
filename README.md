@@ -1,9 +1,9 @@
 ## Spring Boot + React JS シンプル従業員管理システム  
 単純な CRUD のみの従業員管理システム（バリデーション、確認ダイアログなどを含まない）。
 
-バックエンド： Spring Boot REST API サーバ
-データベース： MySQL 8.0
-フロントエンド： React JS
+バックエンド： Spring Boot REST API サーバ  
+データベース： MySQL 8.0  
+フロントエンド： React JS  
 
 ### 利用手順
 リポジトリのトップディレクトリで DB コンテナを起動する
