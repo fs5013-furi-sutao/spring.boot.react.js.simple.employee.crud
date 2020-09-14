@@ -31,6 +31,11 @@ Gradle をインストールしていない場合は、
 ./gradlew bootRun
 ```
 
+api につながることをブラウザで確認
+```console
+http://localhost:8080/api/v1/employees
+```
+
 エラーなくサーバを起動できたら、フロントエンドサーバに移動する。
 ```console
 cd ./react-frontend
