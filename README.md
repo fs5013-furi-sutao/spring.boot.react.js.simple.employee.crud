@@ -1,17 +1,17 @@
-# Spring Boot + React JS シンプル従業員管理システム  
+## Spring Boot + React JS シンプル従業員管理システム  
 単純な CRUD のみの従業員管理システム（バリデーション、確認ダイアログなどを含まない）。
 
 バックエンド： Spring Boot REST API サーバ
 データベース： MySQL 8.0
 フロントエンド： React JS
 
-## 利用手順
+### 利用手順
 まずはバックエンドサーバに移動する。
 ```console
 cd ./springboot-backend
 ```
 
-### バックエンドサーバを起動
+#### バックエンドサーバを起動
 ```console
 gradle bootRun
 ```
@@ -26,19 +26,19 @@ Gradle をインストールしていない場合は、
 cd ./react-frontend
 ```
 
-### フロントエンドサーバ
+#### フロントエンドサーバ
 
-#### Node モジュールをインストール
+##### Node モジュールをインストール
 ```console
 yarn install
 ```
 
-#### フロントサーバを起動
+##### フロントサーバを起動
 ```console
 yarn install
 ```
 
-#### ブラウザで確認
+##### ブラウザで確認
 ```
 http://localhost:3000
 ```
