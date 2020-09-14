@@ -6,7 +6,17 @@
 フロントエンド： React JS
 
 ### 利用手順
-まずはバックエンドサーバに移動する。
+リポジトリのトップディレクトリで DB コンテナを起動する
+```console
+docker-compose up -d
+```
+
+※Docker 環境が手元にない場合は、以下を参照して用意してからコンテナを起動する
+
+Docker Toolbox（レガシー Windows 向けです）：  
+https://github.com/fs5013-furi-sutao/explain.how_to_install.docker_toolbox
+
+エラーなく DB が起動できたら、バックエンドサーバに移動する。
 ```console
 cd ./springboot-backend
 ```
