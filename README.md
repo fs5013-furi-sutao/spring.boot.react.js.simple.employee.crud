@@ -35,7 +35,7 @@ yarn install
 
 ##### フロントサーバを起動
 ```console
-yarn install
+yarn start
 ```
 
 ##### ブラウザで確認
