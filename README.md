@@ -36,6 +36,19 @@ api につながることをブラウザで確認
 http://localhost:8080/api/v1/employees
 ```
 
+DB の employees テーブルにデータを登録して、api から期待値が返ることを確認する。
+
+```json
+[
+    {
+        "id": 1,
+        "firstName": "小野田",
+        "lastName": "真理子",
+        "email": "ond.mrk@employee.moc"
+    }
+]
+```
+
 エラーなくサーバを起動できたら、フロントエンドサーバに移動する。
 ```console
 cd ./react-frontend
